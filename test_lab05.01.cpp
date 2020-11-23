@@ -4,8 +4,8 @@
 using namespace std;
 
 TEST(gTest, ReturnValue) {
-    ASSERT_DOUBLE_EQ(1.6726887784751829, g(2.5,1.3));
-    ASSERT_TRUE( 1.6726887784751829==g(2.5,1.3));
+    ASSERT_DOUBLE_EQ(1.2710657587283734, g(2.5,1.1));
+    ASSERT_TRUE( 1.2710657587283734==g(2.5,1.1));
 }
 int main(int argc, char **argv)
 {
